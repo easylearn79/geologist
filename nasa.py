@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from bs4 import BeautifulSoup as bs
 
-st.title(':red[Geologist Earth View]')
+st.title(':red[Geologist Researcher View]')
 # https://worldview.earthdata.nasa.gov/
 urls = st.sidebar.text_input('Enter Location')
 st.map()
